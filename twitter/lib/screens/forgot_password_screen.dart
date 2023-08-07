@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:twitter/widgets/bar_menu.dart';
 import 'package:twitter/widgets/entry_field.dart';
 import 'package:twitter/widgets/flat_button.dart';
 
@@ -73,6 +74,7 @@ class _ForgetPasswordState extends State<ForgetPassword> {
           ),
         ),
       ),
+      bottomNavigationBar: const BarMenu(),
     );
   }
 }

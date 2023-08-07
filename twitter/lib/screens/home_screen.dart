@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:twitter/widgets/bar_menu.dart';
 import 'package:twitter/widgets/side_bar_menu.dart';
+import 'package:twitter/widgets/users_search_results_widget.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -16,6 +18,7 @@ class _HomeScreenState extends State<HomeScreen> {
       appBar: AppBar(
         title: const Text('Home'),
       ),
+      bottomNavigationBar: const BarMenu(),
     );
   }
 }
