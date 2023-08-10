@@ -74,7 +74,6 @@ class _ForgetPasswordState extends State<ForgetPassword> {
           ),
         ),
       ),
-      bottomNavigationBar: const BarMenu(),
     );
   }
 }
